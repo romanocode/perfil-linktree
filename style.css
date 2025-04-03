@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    text-decoration: none;
+ }
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;      
+    background-image: linear-gradient(to top, #23155c, #211457, #1f1451, #1e134c, #1c1247, #1a1243, #19113f, #17113b, #151037, #141032, #130e2e, #120d2a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}  
+
+ main{
+    padding: 10px;
+    max-width: 580px;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+ }
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    }
+
+
+ .profile img{
+    width: 96px;
+    height: 96px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+ }
+
+ .links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    width: 100%;
+    transition: all 0.3s ease; 
+}
+
+.button iframe {
+    width: 100%;  
+    height: 180px;
+    border-radius: 10px; 
+}
+
+
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #140e2f71;
+        color: aliceblue;
+        height: 64px;
+        border-radius: 10px;
+        border: 1px solid aliceblue;
+        position: relative;
+        width: 100%;
+        transition: height 0.3s ease; 
+    }
+
+    .button:hover{
+        box-shadow: 1px 2px 28px 4px rgba(255,255,255,0.6);
+    }
+    
+    
+    
+    .button i {
+        position: absolute;      
+        right: 15px;             
+        font-size: 20px;
+    }
+
+
+
+    
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}   
+
+.icon a i{
+    font-size: 24px;
+    color: aliceblue;
+    ;
+}
+
+.icon a i:hover{
+    transform: scale(1.5); 
+    ;
+}
+
+.icon a i:active {
+    transform: scale(0.95);
+     }
