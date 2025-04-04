@@ -11,10 +11,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;      
-    background-image: linear-gradient(to top, #23155c, #211457, #1f1451, #1e134c, #1c1247, #1a1243, #19113f, #17113b, #151037, #141032, #130e2e, #120d2a);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    
     
 }  
 
